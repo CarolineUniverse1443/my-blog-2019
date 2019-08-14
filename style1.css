@@ -1,0 +1,170 @@
+body {
+	text-align: center;
+	background-color: #0077FF;
+	color: white;
+}
+a:link, a:visited {
+	color: #0000AA;
+} 
+
+img {
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	width: 200px;
+	height: 300px;
+}
+
+hr {
+	width: 92%;
+    margin-top: 25px;
+}
+
+#formHr {
+    margin-bottom: 30px;
+}
+
+p {
+	font-family: Tahoma;
+	font-size: 16pt;
+	font-weight: 300;
+	text-indent: 25px;
+	margin: 40px;
+	text-align: justify;
+}
+
+ul {
+	text-align: left;
+}
+
+progress {
+    width: 200px;
+    height: 20px;
+    margin-top: 4px;
+    color: #98ff98;
+    background-color: #EEEEEE;
+    border: 1px solid #AAAAAA;
+}
+
+progress::-webkit-progress-bar {
+    background: #EEEEEE;
+}
+
+progress::-webkit-progress-value {
+    background: #98FF98;
+}
+
+table {
+	margin: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    font-size: 10pt;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #1b69d0;
+    border-color: #2153a2;
+    color: #000099;
+    background-color: #CEF;
+    table-layout: fixed;
+    width: 362px;
+    height: 262px;
+}
+
+th {
+    height: 35px;
+}
+
+tr {
+    height: 30px;
+}
+
+#learn {
+	color: #c71585;
+	background-color: #faddea;
+}
+
+#pract {
+	color: #FFA500;
+	background-color: #ffff5a;
+}
+
+#play {
+	color: #52cc00;
+    background-color: #ccff00;
+}
+
+#code {
+	color: #0088cc;
+	background-color: #abdfff;
+}
+
+#disc {
+	color: #7723FF;
+	background-color: #dcbaff;
+}
+
+iframe {
+	width: 350px;
+    height: 250px;
+    border: 1px solid white;
+}
+form {
+	text-align: center;
+}
+
+.input {
+	width: 180px;
+	height: 25px;
+	border: 1px solid #AAAAAA;
+	border-radius: 7px;
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	text-indent: 5px;
+	outline: none;
+}
+
+#emailAd {
+	margin-top: 6px;
+}
+
+#mess {
+	width: 176px;
+	height: 54px;
+	border: 1px solid #AAAAAA;
+	border-radius: 7px;
+	font-family: Arial, sans-serif;
+	font-weight: lighter;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	text-indent: 5px;
+	outline: none;
+}
+
+.button {
+    width: 80px;
+    height: 28px;
+    border-top: 1px solid #EEEEEE;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-radius: 8px;
+    box-shadow: inset -2px -3px 3px #377557;
+    background-color: #98ff98;
+    color: #0066cc;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #0066cc;
+    color: #98ff98;
+    box-shadow: inset -2px -3px 3px #009;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 9pt;
+    font-weight: 300;
+    text-align: right;
+    margin-right: 4%;
+}
